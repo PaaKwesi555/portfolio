@@ -1,0 +1,78 @@
+body {
+  min-height: 100vh;
+  background: url("background1.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  color: whitesmoke;
+  margin-left: -150px;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.dev {
+  color: rgb(194, 81, 99);
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav {
+  gap: 30px;
+}
+
+.nav-tool {
+  color: whitesmoke;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  height: 700px;
+}
+
+.hire-button {
+  width: 150px;
+  height: 50px;
+  color: whitesmoke;
+  background-color: rgb(194, 81, 99);
+  border: none;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.description {
+  margin-left: 250px;
+}
+
+.description-text {
+  color: whitesmoke;
+  font-size: large;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.front-end {
+  font-size: 30px;
+  color: rgb(194, 81, 99);
+}
